@@ -1,0 +1,45 @@
+<html><head>
+    <title>loginform</title>
+    <style>
+        body{
+            background-color : pink;
+        }
+        #form{
+            border :solid gray 1px;
+            width : 25%;
+            border-radius : 2px;
+            margin : 120px auto;
+            background : white;
+            padding: 50px;
+        }
+        #btn{
+            color : blue;
+            background : #b3d4f1;
+            padding : 7px;
+            margin-left :70%;
+            border-radius: 10px;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="form">
+       <h1>Login</h1>
+       <form action="login1.php" method="POST">
+           <p>
+               <label for="usern">Username</label>&nbsp;&nbsp;
+               <input type="text" id="username" name="usern" required/>
+            </p>
+            <p>
+                <label for="pass">Password</label>&nbsp;&nbsp;&nbsp;
+                <input type="text" id="password" name="pass" required/>
+            </p>
+            <p>
+                <input type="submit" id="btn" value="Login"/>
+            </p>
+
+       </form>
+    </div>
+</body>
+    
+</html>
